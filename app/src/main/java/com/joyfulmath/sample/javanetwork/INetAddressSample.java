@@ -13,10 +13,10 @@ import java.util.Enumeration;
  * @author  deman.lu on 2015-12-23 16:00
  * email    luyuanchun032@pingan.com.cn
  */
-public class INetAddressSample implements IOperator{
+public class INetAddressSample implements ITestOperator {
 
     @Override
-    public void start() {
+    public void startTest() {
         try {
             test1();
             test2();

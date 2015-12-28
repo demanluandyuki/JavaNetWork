@@ -3,6 +3,8 @@ package com.joyfulmath.sample.javanetwork;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
+import com.joyfulmath.sample.javanetwork.UrlTester.ProtocolTester;
+
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Background;
 import org.androidannotations.annotations.Click;
@@ -32,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
     @Background
     void getAddress()
     {
-        IOperator sample = new INetAddressSample();
-        sample.start();
+        ITestOperator sample = new INetAddressSample();
+        sample.startTest();
     }
 
     @Background
     void testProtocol()
     {
-        IOperator protocolTest = new ProtocolTester();
-        protocolTest.start();
+        ITestOperator protocolTest = new ProtocolTester();
+        protocolTest.startTest();
     }
 }
