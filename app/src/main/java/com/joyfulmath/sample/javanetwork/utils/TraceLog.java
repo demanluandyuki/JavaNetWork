@@ -16,7 +16,7 @@ public class TraceLog {
 		}
 	}
 
-	private static final LogLine concatLogLine(String extraMessage) {
+	private static LogLine concatLogLine(String extraMessage) {
 		StackTraceElement ste = new Throwable().getStackTrace()[2];
 		String shortClassName = ste.getClassName().substring(
 				ste.getClassName().lastIndexOf(".") + 1);

@@ -22,9 +22,7 @@ public class INetAddressSample implements IOperator{
             test2();
             test3();
             test4();
-        }catch (UnknownHostException e) {
-            e.printStackTrace();
-        }catch (Exception e)
+        } catch (IOException e)
         {
             e.printStackTrace();
         }
@@ -58,9 +56,9 @@ public class INetAddressSample implements IOperator{
         Enumeration<NetworkInterface> netInterfaces = NetworkInterface.getNetworkInterfaces();
         while (netInterfaces.hasMoreElements()) {
             NetworkInterface nif = netInterfaces.nextElement();
-            Enumeration<InetAddress> iparray = nif.getInetAddresses();
-            while (iparray.hasMoreElements()) {
-                InetAddress ip = iparray.nextElement();
+            Enumeration<InetAddress> iParray = nif.getInetAddresses();
+            while (iParray.hasMoreElements()) {
+                InetAddress ip = iParray.nextElement();
                 TraceLog.i(ip.getHostAddress());
             }
         }
