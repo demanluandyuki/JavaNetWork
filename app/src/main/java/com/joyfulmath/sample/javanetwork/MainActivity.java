@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     @Background
     void testProtocol()
     {
-        IOperator protocolTest = new ProtocalTester();
+        IOperator protocolTest = new ProtocolTester();
         protocolTest.start();
     }
 }

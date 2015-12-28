@@ -9,7 +9,7 @@ import java.net.URL;
  * @author deman.lu email luyuanchun032@pingan.com.cn
  * @version on 2015-12-25 16:48
  */
-public class ProtocalTester implements IOperator {
+public class ProtocolTester implements IOperator {
     @Override
     public void start() {
         testProtocol("http://www.adc.org");
