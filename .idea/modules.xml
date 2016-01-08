@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaNetWork.iml" filepath="$PROJECT_DIR$/JavaNetWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvmtestlib/jvmtestlib.iml" filepath="$PROJECT_DIR$/jvmtestlib/jvmtestlib.iml" />
     </modules>
   </component>
 </project>
