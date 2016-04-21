@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/act_solution_1_sv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#0dfeef"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="add item" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/act_solution_1_lv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="remove_item" />
+</LinearLayout>

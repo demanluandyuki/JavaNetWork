@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/act_solution_1_sv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0dfeef">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nListView上方数据\n" />
+
+        <com.joyfulmath.sample.javanetwork.androidbase.scrollview.view.ScrollListView
+            android:id="@+id/act_solution_1_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </com.joyfulmath.sample.javanetwork.androidbase.scrollview.view.ScrollListView>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="\nListView下方数据\n" />
+    </LinearLayout>
+</ScrollView>
